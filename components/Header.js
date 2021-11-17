@@ -14,7 +14,7 @@ const Header = () => {
      const [session] = useSession();
      const router = useRouter();
      return (
-          <div className="sticky bg-[#040714] top-0 z-[1000] flex h-[72px] items-center px-10 md:px-12">
+          <Header className="sticky bg-[#040714] top-0 z-[1000] flex h-[72px] items-center px-10 md:px-12">
                <Image
                     className="cursor-pointer"
                     src="/images/logo.svg"
@@ -73,7 +73,7 @@ const Header = () => {
                          onClick={signOut}
                     />
                )}
-          </div>
+          </Header>
      );
 };
 
