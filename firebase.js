@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-     apiKey: "AIzaSyClTXJHedu5n2oq23qhbw_VmlHmiUYzzgQ",
-     authDomain: "disney-clone-gh.firebaseapp.com",
-     projectId: "disney-clone-gh",
-     storageBucket: "disney-clone-gh.appspot.com",
-     messagingSenderId: "1058661298599",
-     appId: "1:1058661298599:web:5044b4616f438bd2524682",
+     apiKey: "AIzaSyABHmxTtUxaSbGPMuuPUeKdgnX9e8EsGic",
+     authDomain: "disney-vercel.firebaseapp.com",
+     projectId: "disney-vercel",
+     storageBucket: "disney-vercel.appspot.com",
+     messagingSenderId: "1004167344256",
+     appId: "1:1004167344256:web:b7a1e11962406a0acc7665",
 };
 
 const app = !firebase.apps.length
